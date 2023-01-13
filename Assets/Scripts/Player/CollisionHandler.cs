@@ -80,8 +80,6 @@ public class CollisionHandler : MonoBehaviour
     {
         float newRotation = 0;
 
-        playerMovementRef.stopForwardMovement = false;
-
         if(bMoveRight)
         {
             newRotation = transform.eulerAngles.y + rotationAmount;
